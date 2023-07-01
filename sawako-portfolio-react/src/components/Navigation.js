@@ -1,19 +1,20 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navigation = () => {
     return (
         <ul>
             <li>
-                <a href='#'>About Me</a>
+                <Link to='/'>About Me</Link>
             </li>
             <li>
-                <a href='#'>Portfolio</a>
+                <Link to='/portfolio'>Portfolio</Link>
             </li>
             <li>
-                <a href='#'>Contact</a>
+                <Link to='/contact'>Contact</Link>
             </li>
             <li>
-                <a href='#'>Resume</a>
+                <Link to='/resume'>Resume</Link>
             </li>
         </ul>
     )
