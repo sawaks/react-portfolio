@@ -72,6 +72,35 @@ nav ul li a:hover {
   object-fit: cover;
 }
 
+/* portfolio */
+#githubLink {
+  margin-left: 10px;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.project-img {
+
+  object-fit: cover;
+}
+
+.project-container {
+  width: auto;
+}
+
+.linkBtn-container {
+  text-align: center;
+}
+
+
+@media (max-width: 765px) {
+  .project-container {
+    gap: 20px;
+  }
+}
+
 @media (max-width: 571px) {
   .text-container {
     padding-top: 40px;

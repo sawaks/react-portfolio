@@ -1,8 +1,49 @@
-import React from 'react'
+import React from 'react';
+import artistWebsite from '../images/ayakogoshima.jpeg';
+import cineWebsite from '../images/CineFile.png';
+import travelWebsite from '../images/travel_companion.png';
+
+import { Project } from './Project';
+
 
 const Portfolio = () => {
+    // const cardStyle = {
+    //     width: '18rem',
+    // };
     return (
-        <div>Portfolio</div>
+        <div className='main-container'>
+            <div className='title-container'>
+                <h1>Portfolio</h1>
+            </div>
+
+            <div className="row project-container">
+                {Project.map((value, key) => {
+                    return (
+                        <div className="col-md-4">
+                            <div className="card" key={key}>
+                                <img className="card-img-top project-img" src={value.siteImg} alt="Card image cap" />
+                                <div className="card-body">
+                                    <h5 className="card-title">{value.title}</h5>
+                                    <p className="card-text">Role: {value.role} <br />Tool: {value.tool}</p>
+                                    <div className='linkBtn-container'>
+                                        <a href={value.siteLink} className="btn btn-primary" id="websiteLink">Website</a>
+                                        <a href={value.gitHubLink} className="btn btn-primary" id="githubLink">gitHub</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    )
+                })}
+
+
+            </div>
+
+
+        </div>
+
     )
 }
 
