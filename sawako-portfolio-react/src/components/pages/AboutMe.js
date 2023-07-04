@@ -11,10 +11,10 @@ const AboutMe = () => {
             </div>
 
             <div className='row'>
-                <div className='img-container col-sm-4'>
+                <div className='img-container'>
                     <img src={profileImg} className='profileImg' />
                 </div>
-                <div className='text-container col-sm-8'>
+                <div className='text-container'>
                     <p>With over 5 years of experience as an E-Commerce Contents Director in Tokyo, Japan, I have successfully
                         created compelling content that has stimulated consumer activity. During this time, I honed my skills in
                         crafting engaging and impactful digital experiences.<br />Currently, I am working as a freelanced web

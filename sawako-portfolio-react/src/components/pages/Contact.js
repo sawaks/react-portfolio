@@ -9,6 +9,7 @@ const Contact = () => {
     const handleChange = (e) => {
         const { name, value } = e.target;
         setFormValues({ ...formValues, [name]: value });
+        setFormErrors(validate(formValues));
     };
 
     const handleSubmit = (e) => {
@@ -17,6 +18,7 @@ const Contact = () => {
         setIsSubmit(true);
 
     };
+
 
     const validate = (values) => {
         const errors = {};
@@ -42,6 +44,7 @@ const Contact = () => {
                 <h1>Contact</h1>
             </div>
             <form
+
                 onSubmit={(e) => handleSubmit(e)}
                 className='form-group'
             >

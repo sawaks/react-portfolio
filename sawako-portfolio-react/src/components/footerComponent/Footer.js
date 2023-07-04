@@ -1,6 +1,7 @@
 import React from 'react';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import FacebookIcon from '@mui/icons-material/Facebook';
 
 const Footer = () => {
     return (
@@ -14,6 +15,10 @@ const Footer = () => {
                 </div>
                 <div className='linkedInIcon-container'>
                     <a href="https://www.linkedin.com/in/sawako-goshima"><LinkedInIcon style={{ fontSize: "200%" }} /></a>
+
+                </div>
+                <div className='facebookIcon-container'>
+                    <a href="https://www.facebook.com/sawako.goshima/"><FacebookIcon style={{ fontSize: "200%" }} /></a>
 
                 </div>
             </div>

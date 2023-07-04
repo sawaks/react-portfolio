@@ -83,6 +83,10 @@ nav ul li a:hover {
 
 }
 
+.text-container {
+  padding-top: 30px;
+}
+
 .profileImg {
   width: 250px;
   height: 250px;
@@ -215,15 +219,19 @@ footer {
 
 .githubIcon-container {
   text-align: end;
-  flex: 50%;
+  flex: 33%;
 }
 
 .linkedInIcon-container {
-  text-align: start;
-  margin-left: 10px;
-  flex: 50%;
+  text-align: center;
+
+  flex: 33%;
 }
 
+.facebookIcon-container {
+  text-align: start;
+  flex: 33%;
+}
 
 footer div a {
   color: white;
@@ -238,8 +246,9 @@ footer div a:hover {
 .copyText-container {
   color: white;
   text-align: center;
-  margin-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+
+
 }
 
 
@@ -251,9 +260,7 @@ footer div a:hover {
 }
 
 @media (max-width: 571px) {
-  .text-container {
-    padding-top: 40px;
-  }
+
 
   .logo {
     margin-left: 30px;
