@@ -1,4 +1,4 @@
-
+import React from 'react';
 import { Project } from './Project';
 
 
@@ -24,8 +24,8 @@ const Portfolio = () => {
                                     <h5 className="card-title">{value.title}</h5>
                                     <p className="card-text">Role: {value.role} <br />Tool: {value.tool}</p>
                                     <div className='linkBtn-container'>
-                                        <a href={value.siteLink} className="btn btn-primary" id="websiteLink">Website</a>
-                                        <a href={value.gitHubLink} className="btn btn-primary" id="githubLink">GitHub</a>
+                                        <a href={value.siteLink} className="btn btn-danger" id="websiteLink">Website</a>
+                                        <a href={value.gitHubLink} className="btn btn-light" id="githubLink">GitHub</a>
                                     </div>
 
                                 </div>

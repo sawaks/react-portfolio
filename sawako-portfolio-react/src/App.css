@@ -5,23 +5,33 @@
   position: relative;
   padding-bottom: 120px;
   box-sizing: border-box;
+  background-color: #FFF3E2;
 
 }
+
 
 header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: pink;
+  background-color: #DF5E5E;
   color: white;
-  /* position: fixed; */
+  position: fixed;
+  top: 0;
   width: 100%;
   z-index: 10;
   height: 90px;
+
 }
 
-header .logo h3 {
+header .logo h3 a {
   font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+header .logo h3 a:hover {
+  color: #492F10;
 }
 
 nav ul {
@@ -43,13 +53,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: blueviolet;
+  color: #492F10;
 }
 
 /* About me */
 .main-container {
   padding-left: 50px;
   padding-right: 50px;
+  padding-top: 70px;
 
 }
 
@@ -57,7 +68,9 @@ nav ul li a:hover {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
-  border-bottom: solid 5px black;
+  border-bottom: solid 5px #492F10;
+  color: #492F10;
+
 
 }
 
@@ -99,6 +112,26 @@ nav ul li a:hover {
   text-align: center;
 }
 
+.linkBtn-container .btn-light,
+.btn-light:hover,
+.btn-light:active,
+.btn-light:visited,
+.btn-light:focus {
+  background-color: #E98580;
+  border-color: #E98580;
+  color: white;
+}
+
+.linkBtn-container .btn-danger,
+.btn-danger:hover,
+.btn-danger:active,
+.btn-danger:visited,
+.btn-danger:focus {
+  background-color: #DF5E5E;
+  border-color: #DF5E5E;
+  color: white;
+}
+
 .submitBtn-container {
   text-align: center;
 }
@@ -122,6 +155,43 @@ nav ul li a:hover {
   margin-top: 15px;
 }
 
+.submitBtn-container {
+  margin-top: 30px;
+}
+
+.submitBtn-container .btn-danger,
+.btn-danger:hover,
+.btn-danger:active,
+.btn-danger:visited,
+.btn-danger:focus {
+  background-color: #DF5E5E;
+  border-color: #DF5E5E;
+  color: white;
+}
+
+lavel {
+  color: #492F10;
+  font-weight: 600;
+}
+
+
+/* Resume */
+.dwnloadText a {
+  cursor: pointer;
+
+}
+
+.frontEnd-skills-container h3 {
+  font-weight: 600;
+  color: #492F10;
+}
+
+.backEnd-skills-container h3 {
+  font-weight: 600;
+  color: #492F10;
+}
+
+
 /* footer */
 
 
@@ -129,7 +199,7 @@ nav ul li a:hover {
 footer {
   position: absolute;
   bottom: 0;
-  background-color: pink;
+  background-color: #E98580;
   width: 100%;
   height: 100px;
   font-size: large;
@@ -161,12 +231,18 @@ footer div a {
 
 }
 
+footer div a:hover {
+  color: #492F10;
+}
+
 .copyText-container {
   color: white;
   text-align: center;
   margin-top: 10px;
   padding-bottom: 10px;
 }
+
+
 
 @media (max-width: 765px) {
   .project-container {

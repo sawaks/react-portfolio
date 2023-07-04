@@ -84,7 +84,7 @@ const Contact = () => {
                 <p className="errorMsg">{formErrors.message}</p>
                 <div className="mb-3 pt-0 submitBtn-container">
                     <Button
-                        className="btn btn-info"
+                        className="btn btn-danger"
                         type="submit"
                     >
                         Send a message
