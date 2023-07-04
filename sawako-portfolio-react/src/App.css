@@ -98,6 +98,24 @@ nav ul li a:hover {
   text-align: center;
 }
 
+.card-style {
+
+  box-shadow: 9px 5px 23px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 9px 5px 23px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 9px 5px 23px -5px rgba(0, 0, 0, 0.75);
+}
+
+/* Contact */
+.errorMsg {
+  color: red;
+
+}
+
+.msgOk {
+  text-align: center;
+  color: green;
+  margin-top: 15px;
+}
 
 @media (max-width: 765px) {
   .project-container {
