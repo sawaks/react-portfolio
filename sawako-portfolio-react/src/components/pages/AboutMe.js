@@ -1,6 +1,6 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
-import profileImg from '../images/sawako-photo.jpg'
+
+import profileImg from '../../images/sawako-photo.jpg'
 
 const AboutMe = () => {
     return (
@@ -41,4 +41,4 @@ const AboutMe = () => {
     )
 }
 
-export default AboutMe
+export default AboutMe;

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { Button } from 'react-bootstrap';
 const Contact = () => {
     const initialValues = { yourName: "", email: "", message: "" }
     const [formValues, setFormValues] = useState(initialValues);
@@ -83,12 +83,12 @@ const Contact = () => {
                 </div>
                 <p className="errorMsg">{formErrors.message}</p>
                 <div className="mb-3 pt-0 submitBtn-container">
-                    <button
+                    <Button
                         className="btn btn-info"
                         type="submit"
                     >
                         Send a message
-                    </button>
+                    </Button>
                 </div>
                 {Object.keys(formErrors).length === 0 && isSubmit && (
                     <div className="msgOk">Thank you for sending your message.</div>

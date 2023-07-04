@@ -1,7 +1,7 @@
 import React from 'react';
-import artistWebsite from '../images/ayakogoshima.jpeg';
-import cineWebsite from '../images/CineFile.png';
-import travelWebsite from '../images/travel_companion.png';
+import artistWebsite from '../../images/ayakogoshima.jpeg';
+import cineWebsite from '../../images/CineFile.png';
+import travelWebsite from '../../images/travel_companion.png';
 
 export const Project = [
     {
