@@ -18,3 +18,4 @@ This project is the proof that I learned through week 20. Create a single-page 
 https://github.com/sawaks/sawako-portfolio-react.git
 
 ## The URL of deployed application
+https://sawaks.github.io/sawako-portfolio-react
