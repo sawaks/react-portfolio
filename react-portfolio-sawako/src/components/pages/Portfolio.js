@@ -19,7 +19,7 @@ const Portfolio = () => {
                     return (
                         <div className="col-md-4">
                             <div className="card card-style" key={key}>
-                                <img className="card-img-top project-img" src={value.siteImg} alt="Card image cap" />
+                                <img className="card-img-top project-img" src={value.siteImg} alt="project" />
                                 <div className="card-body">
                                     <h5 className="card-title">{value.title}</h5>
                                     <p className="card-text">Role: {value.role} <br />Tool: {value.tool}</p>

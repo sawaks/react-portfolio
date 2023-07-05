@@ -12,7 +12,7 @@ const AboutMe = () => {
 
             <div className='row'>
                 <div className='img-container'>
-                    <img src={profileImg} className='profileImg' />
+                    <img src={profileImg} alt='sawako' className='profileImg' />
                 </div>
                 <div className='text-container'>
                     <p>With over 5 years of experience as an E-Commerce Contents Director in Tokyo, Japan, I have successfully
