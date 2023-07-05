@@ -1,4 +1,4 @@
-# sawako-portfolio-react
+# react-portfolio
 
 ## Description
 This project is the proof that I learned through week 20. Create a single-page application portfolio by Reactjs. An employer can see the projects which I have deplyed.
@@ -15,7 +15,7 @@ This project is the proof that I learned through week 20. Create a single-page 
 7. Inside fotter erea, you can click each Icon and Locate to GitHub profile, LinkedIn and Facebook.
 
 ## GitHub Repository Link
-https://github.com/sawaks/sawako-portfolio-react.git
+https://github.com/sawaks/react-portfolio.git
 
 ## The URL of deployed application
-https://sawaks.github.io/sawako-portfolio-react
+https://sawaks.github.io/react-portfolio/
