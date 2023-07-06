@@ -2,7 +2,7 @@
   "name": "react-portfolio-sawako",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sawaks.github.io/react-portfolio",
+  "homepage": "https://sawaks.github.io",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
