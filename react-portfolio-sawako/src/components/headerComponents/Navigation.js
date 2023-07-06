@@ -5,16 +5,16 @@ const Navigation = () => {
     return (
         <ul>
             <li>
-                <Link to='/'>About Me</Link>
+                <Link to='/react-portfolio/'>About Me</Link>
             </li>
             <li>
-                <Link to='/portfolio'>Portfolio</Link>
+                <Link to='/react-portfolio/portfolio'>Portfolio</Link>
             </li>
             <li>
-                <Link to='/contact'>Contact</Link>
+                <Link to='/react-portfolio/contact'>Contact</Link>
             </li>
             <li>
-                <Link to='/resume'>Resume</Link>
+                <Link to='/react-portfolio/resume'>Resume</Link>
             </li>
         </ul>
     )
