@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.0421b18c.css",
-    "main.js": "/react-portfolio/static/js/main.1b42633f.js",
+    "main.css": "/react-portfolio/static/css/main.054dfbea.css",
+    "main.js": "/react-portfolio/static/js/main.dbd92091.js",
     "static/js/787.ab4ee39e.chunk.js": "/react-portfolio/static/js/787.ab4ee39e.chunk.js",
     "static/media/travel_companion.png": "/react-portfolio/static/media/travel_companion.ece156ebddeeb451ed0c.png",
     "static/media/CineFile.png": "/react-portfolio/static/media/CineFile.957c7f1b6289a7a90b74.png",
     "static/media/ayakogoshima.jpeg": "/react-portfolio/static/media/ayakogoshima.1c624fa3ecb852843c83.jpeg",
     "static/media/sawako-photo.jpg": "/react-portfolio/static/media/sawako-photo.d7c922d637416d1bd30a.jpg",
+    "static/media/Qwizard.png": "/react-portfolio/static/media/Qwizard.c1bd3795e02bf1186b94.png",
+    "static/media/techBlog.png": "/react-portfolio/static/media/techBlog.6b9739059a13e8746cd1.png",
     "static/media/SawakoGoshima_resume.pdf": "/react-portfolio/static/media/SawakoGoshima_resume.a6a94cfda6c699e97d27.pdf",
     "index.html": "/react-portfolio/index.html",
-    "main.0421b18c.css.map": "/react-portfolio/static/css/main.0421b18c.css.map",
-    "main.1b42633f.js.map": "/react-portfolio/static/js/main.1b42633f.js.map",
+    "main.054dfbea.css.map": "/react-portfolio/static/css/main.054dfbea.css.map",
+    "main.dbd92091.js.map": "/react-portfolio/static/js/main.dbd92091.js.map",
     "787.ab4ee39e.chunk.js.map": "/react-portfolio/static/js/787.ab4ee39e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0421b18c.css",
-    "static/js/main.1b42633f.js"
+    "static/css/main.054dfbea.css",
+    "static/js/main.dbd92091.js"
   ]
 }
