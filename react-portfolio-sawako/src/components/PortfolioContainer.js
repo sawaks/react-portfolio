@@ -6,19 +6,22 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HelmetProvider } from 'react-helmet-async';
 
 const PortfolioContainer = () => {
     return (
         <Router>
             <div className="PortfolioContainer">
                 <Header />
-                <Routes>
-                    <Route path='/react-portfolio/' element={<AboutMe />} />
-                    <Route path='/react-portfolio/portfolio' element={<Portfolio />} />
-                    <Route path='/react-portfolio/contact' element={<Contact />} />
-                    <Route path='/react-portfolio/resume' element={<Resume />} />
+                <HelmetProvider>
+                    <Routes>
+                        <Route path='/react-portfolio/' element={<AboutMe />} />
+                        <Route path='/react-portfolio/portfolio' element={<Portfolio />} />
+                        <Route path='/react-portfolio/contact' element={<Contact />} />
+                        <Route path='/react-portfolio/resume' element={<Resume />} />
 
-                </Routes>
+                    </Routes>
+                </HelmetProvider>
                 <Footer />
 
             </div>

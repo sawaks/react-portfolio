@@ -14,6 +14,9 @@ This project is the proof that I learned through week 20. Create a single-page 
 6. Inside Contact page, you can input your info also each input form provide notification if you typo some on form.  
 7. Inside fotter erea, you can click each Icon and Locate to GitHub profile, LinkedIn and Facebook.
 
+## Technologies
+node.js, react, material UI, bootstrap
+
 ## GitHub Repository Link
 https://github.com/sawaks/react-portfolio.git
 

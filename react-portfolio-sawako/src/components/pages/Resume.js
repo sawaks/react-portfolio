@@ -1,10 +1,14 @@
 import React from 'react'
 import resume from '../../images/SawakoGoshima_resume.pdf';
+import { Helmet } from 'react-helmet-async';
 
 
 const Resume = () => {
     return (
         <div className='main-container'>
+            <Helmet>
+                <title>Sawako Goshima | Resume</title>
+            </Helmet>
             <div className='title-container'>
                 <h1>Resume</h1>
             </div>

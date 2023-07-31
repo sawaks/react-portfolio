@@ -99,6 +99,10 @@ nav ul li a:hover {
   margin-left: 10px;
 }
 
+.card-container {
+  padding-top: 20px;
+}
+
 .card-title {
   text-align: center;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Project } from './Project';
+import { Helmet } from 'react-helmet-async';
 
 
 const Portfolio = () => {
@@ -10,6 +11,9 @@ const Portfolio = () => {
 
     return (
         <div className='main-container'>
+            <Helmet>
+                <title>Sawako Goshima | Portfolio</title>
+            </Helmet>
             <div className='title-container'>
                 <h1>Portfolio</h1>
             </div>
@@ -17,13 +21,14 @@ const Portfolio = () => {
             <div className="row project-container">
                 {Project.map((value, key) => {
                     return (
-                        <div className="col-md-4">
-                            <div className="card card-style" key={key}>
+                        <div className="col-md-4 card-container">
+                            <div className="card h-100 card-style" key={key}>
                                 <img className="card-img-top project-img" src={value.siteImg} alt="project" />
-                                <div className="card-body">
-                                    <h5 className="card-title">{value.title}</h5>
-                                    <p className="card-text">Role: {value.role} <br />Tool: {value.tool}</p>
-                                    <div className='linkBtn-container'>
+                                <div className=" d-flex flex-column card-body">
+                                    <h5 className="card-title" style={{ fontWeight: "bold" }}>{value.title}</h5>
+                                    <p className="card-text"><span style={{ fontWeight: "bold" }}>Role: </span>{value.role} <br />
+                                        <span style={{ fontWeight: "bold" }}>Tool: </span> {value.tool}</p>
+                                    <div className='linkBtn-container mt-auto'>
                                         <a href={value.siteLink} className="btn btn-danger" id="websiteLink">Website</a>
                                         <a href={value.gitHubLink} className="btn btn-light" id="githubLink">GitHub</a>
                                     </div>
