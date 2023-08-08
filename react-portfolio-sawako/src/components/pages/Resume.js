@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from '../../images/SawakoGoshima_resume.pdf';
+import resume from '../../images/SawakoGoshimaResume.pdf';
 import { Helmet } from 'react-helmet-async';
 
 
