@@ -27,7 +27,7 @@ export const Project = [
         siteImg: `${travelWebsite}`,
         role: 'Front end and designer',
         tool: 'Express, Express Handlebars, MySQL, node.js',
-        siteLink: 'https://sheltered-caverns-17258.herokuapp.com/',
+        siteLink: 'https://travel-companionbysawako-2abbaf202aba.herokuapp.com/',
         gitHubLink: 'https://github.com/tjsoho/travel-companion.git'
     },
     {
